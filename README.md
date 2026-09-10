@@ -58,6 +58,8 @@ A Central encontra-se em **desenvolvimento ativo**, com a fundação da aplicaç
 - ✅ Separação entre estrutura, lógica e conteúdo
 - ✅ Responsividade
 - ✅ Refinamento visual da interface
+- ✅ Visual operacional neutro aplicado às páginas internas
+- ✅ Folhas de estilo separadas para Central e páginas internas
 - ✅ Tratamento de scripts duplicados
 - ✅ Estrutura documental do projeto
 - ✅ Diretrizes de uso e base legal
@@ -89,7 +91,7 @@ O sistema de temas utiliza variáveis CSS para permitir a alteração global da 
 A aplicação segue uma arquitetura simples e modular, separando a estrutura visual do conteúdo operacional.
 
 ```text
-projetointranet/
+projetintranet2/
 │
 ├── .github/
 │   └── PULL_REQUEST_TEMPLATE/

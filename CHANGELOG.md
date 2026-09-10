@@ -1,5 +1,21 @@
 # Changelog — Central de Atendimento
 
+## 2026-09-10
+
+### Alterado
+- Novo visual operacional neutro inspirado em interfaces administrativas.
+- Central com identidade visual roxa, fundo neutro, sidebar branca e componentes mais compactos.
+- Links rápidos, Mural, Novidades e Diretrizes alinhados à mesma identidade visual.
+- Criado o arquivo assets/css/pages.css para padronização das páginas internas.
+- Ajustada a navegação das páginas internas para retorno à Central.
+- Mantido suporte aos temas claro e escuro nas páginas que possuem alternância de tema.
+
+### Mantido
+- Estrutura modular de conteúdo.
+- Scripts e lógica JavaScript existentes.
+- Identificação do operador e persistência local.
+- Sistema de pesquisa, filtros, links, novidades e Mural.
+
 ## 2026-08-19
 
 ### Adicionado
