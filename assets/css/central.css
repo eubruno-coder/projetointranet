@@ -16,6 +16,9 @@
   --op-purple:#6c3bff;
   --op-purple-dark:#5126d9;
   --op-purple-soft:#f1effa;
+  --op-copy-bg:#e7e9ec;
+  --op-copy-border:#c9ccd1;
+  --op-copy-text:#30343a;
   --op-green:#16834b;
   --op-green-bg:#edf8f1;
   --op-red:#d93025;
@@ -35,6 +38,9 @@
   --op-purple:#9a76ff;
   --op-purple-dark:#7c55e8;
   --op-purple-soft:#2b253d;
+  --op-copy-bg:#292c32;
+  --op-copy-border:#41454d;
+  --op-copy-text:#d9dce2;
   --op-green:#78c892;
   --op-green-bg:#203328;
   --op-red:#f08a83;
@@ -479,13 +485,17 @@ body::selection{
   right:11px!important;
   padding:5px 8px!important;
   border-radius:3px!important;
-  background:var(--op-purple)!important;
+  background:var(--op-copy-bg)!important;
+  border:1px solid var(--op-copy-border)!important;
+  color:var(--op-copy-text)!important;
   box-shadow:none!important;
   font-size:9px!important;
 }
 
 .btn-copiar:hover{
-  background:var(--op-purple-dark)!important;
+  background:var(--op-copy-border)!important;
+  border-color:var(--op-copy-border)!important;
+  color:var(--op-text)!important;
   transform:none!important;
 }
 
